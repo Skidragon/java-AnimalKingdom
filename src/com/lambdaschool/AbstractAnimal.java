@@ -21,6 +21,14 @@ public abstract class AbstractAnimal {
     public abstract String breath();
     public abstract String reproduce();
 
+    public String getName() {
+        return name;
+    }
+
+    public int getYearNamed() {
+        return yearNamed;
+    }
+
     @Override
     public String toString() {
         return "AbstractAnimal{" +
